@@ -8,15 +8,15 @@ def powerball():
         else:
             return
         if 69>= b  >= 1 and b != a:
-            c= int(input("select 3rd # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ") : "))
+            c= int(input("select 3rd # (1 thru 69 excluding " + str(a)+ ' and ' + str(b)+ ") : "))
         else:
             return
         if 69>= c >= 1 and c != a and c != b:
-            d= int(input("select 4th # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ' ' + str(c)+ ") : "))
+            d= int(input("select 4th # (1 thru 69 excluding " + str(a)+ ', ' + str(b)+ ', and ' + str(c)+ ") : "))
         else:
             return
         if 69>= d >= 1 and d != a and d != b and d != c:
-            e= int(input("select 5th # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ' ' + str(c)+ ' ' + str(d)+ ") : "))
+            e= int(input("select 5th # (1 thru 69 excluding " + str(a)+ ', ' + str(b)+ ', ' + str(c)+ ', and ' + str(d)+ ") : "))
         else:
             return
         if 69>= e >= 1 and e != a and e != b and e != c and e != d:
