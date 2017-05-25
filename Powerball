@@ -26,4 +26,4 @@ def powerball():
     except:
         print("Invalid character. Integer required")
         return
-    print(h1, h2, a, b, c, d, e, "Powerball:", f);print("Powerball winning number:");print('15 26 34 55 63 Powerball: 16')
+    print(h1, h2, a, b, c, d, e, "Powerball:", f, '\n');print("Powerball winning number:\n");print('15 26 34 55 63 Powerball: 16')
