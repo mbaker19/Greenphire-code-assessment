@@ -1,0 +1,29 @@
+def powerball():
+    h1= input("Enter firstname: ")
+    h2= input("Enter lastname: ")
+    try:
+        a= int(input("select 1st # (1 thru 69): "))
+        if 69>= a >= 1:
+            b= int(input("select 2nd # (1 thru 69 excluding " + str(a)+ ") : "))
+        else:
+            return
+        if 69>= b  >= 1 and b != a:
+            c= int(input("select 3rd # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ") : "))
+        else:
+            return
+        if 69>= c >= 1 and c != a and c != b:
+            d= int(input("select 4th # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ' ' + str(c)+ ") : "))
+        else:
+            return
+        if 69>= d >= 1 and d != a and d != b and d != c:
+            e= int(input("select 5th # (1 thru 69 excluding " + str(a)+ ' ' + str(b)+ ' ' + str(c)+ ' ' + str(d)+ ") : "))
+        else:
+            return
+        if 69>= e >= 1 and e != a and e != b and e != c and e != d:
+            f= int(input("select Powerball # (1 thru 26): "))
+        else:
+           return
+    except:
+        print("Invalid character. Interger required")
+        return
+    print(h1, h2, a, b, c, d, e, "Powerball:", f);print("Powerball winning number:");print('15 26 34 55 63 Powerball: 16')
