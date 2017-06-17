@@ -1,6 +1,7 @@
 def powerball():
     h1= input("Enter firstname: ")
     h2= input("Enter lastname: ")
+    
     try:
         a= int(input("select 1st # (1 thru 69): "))
         if 69>= a >= 1:
@@ -23,7 +24,9 @@ def powerball():
             f= int(input("select Powerball # (1 thru 26): "))
         else:
            return
-    except:
+   
+   except:
         print("Invalid character. Integer required")
         return
-    print(h1, h2, a, b, c, d, e, "Powerball:", f, '\n');print("Powerball winning number:\n");print('15 26 34 55 63 Powerball: 16')
+   
+   print(h1, h2, a, b, c, d, e, "Powerball:", f, '\n');print("Powerball winning number:\n");print('15 26 34 55 63 Powerball: 16')
